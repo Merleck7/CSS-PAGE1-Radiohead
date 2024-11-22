@@ -15,7 +15,7 @@ header {
     background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* Fija la imagen mientras se hace scroll */
-    padding: 80px;
+    padding: 120px;
     color: #fff;
     text-align: center;
 }
