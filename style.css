@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/912/705/296/kid-a-radiohead-wallpaper-preview.jpg'); /* Aquí se coloca la URL de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras se hace scroll */
+    color: #912525;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); /* Sombra oscura para resaltar el texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://lh3.googleusercontent.com/o_9BDAQZy2-R-BzR-MO91rvly39MRjxV_qUbdzYdvyOPu9V2CPix9nRXroTMvy4f99zdLhKePFHQEYA=w2358-h982-p-l90-rj'); /* Aquí se coloca la URL de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras se hace scroll */
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.Gif {
+    display: flex; /* Alinea la imagen y el título horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 20px; /* Espacio entre la imagen y el siguiente bloque */
+}
+
+.Gif img {
+    width: 80px; /* Ajusta el tamaño de la imagen a la izquierda */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el título */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #000000;
+}
+
+.Gif img:hover {
+    filter: invert(100%);
+}
+/* Estilo del enlace */
+.image-link {
+    text-decoration: none;  /* Elimina el subrayado del enlace */
+    position: relative;     /* Hace que el overlay se posicione relativo a esta imagen */
+    display: inline-block;   /* Asegura que las imágenes sean bloques inline */
+}
+.image-container {
+    display: flex;          /* Hacemos que los elementos se alineen en fila */
+    gap: 1rem;              /* Espacio entre las imágenes */
+    flex-wrap: wrap;        /* Permite que las imágenes se ajusten si el contenedor es muy pequeño */
+    justify-content: center;/* Alinea las imágenes al centro del contenedor */
+}
+/* Estilo de las imágenes */
+.image-container img {
+    width: 15rem;           /* Ajusta el tamaño de las imágenes */
+    height: 15rem;          /* Ajusta el tamaño de las imágenes */
+    object-fit: cover;      /* Mantiene las imágenes con un buen encuadre */
+    border-radius: 8px;     /* Da bordes redondeados a las imágenes */
+    transition: transform 0.3s ease;
+}
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.songs img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
